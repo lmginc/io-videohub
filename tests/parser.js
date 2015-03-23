@@ -3,7 +3,8 @@
 var fs = require('fs');
 var assert = require('assert');
 var parser = require('../lib/parser');
-var router = require('../lib/router');
+var Router = require('../lib/router');
+var router = new Router();
 
 var fixture = fs.readFileSync(__dirname+'/fixture.txt').toString().split(/\n\n/g);
 

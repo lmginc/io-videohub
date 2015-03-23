@@ -1,6 +1,6 @@
 'use strict';
 
-if (process.env.INTEGRATION) return;
+if (!process.env.INTEGRATION) return;
 
 var assert = require('assert');
 var router = require(__dirname+'/../../lib/router');

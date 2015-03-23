@@ -1,14 +1,14 @@
 {
-  "name": "black-magic",
+  "name": "io-videohub",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "Black Magic Videohub driver for iojs and node.js",
+  "main": "index.js",
   "dependencies": {
     "underscore": "^1.7.0"
   },
   "scripts": {
     "test": "mocha tests --recursive"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "TJ Krusinski <tj.krusinski@lmg.net",
+  "license": "MIT"
 }

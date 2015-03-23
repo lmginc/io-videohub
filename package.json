@@ -1,0 +1,14 @@
+{
+  "name": "black-magic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "underscore": "^1.7.0"
+  },
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}
